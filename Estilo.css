@@ -1,0 +1,28 @@
+body{
+	background-color: LightBlue;
+	background-image: url("roma.jpeg"); 
+}
+
+div {
+	text-align: center;
+	width: 500px;
+	border: 18px solid BurlyWood;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-color: rgba(211,211,211,0.8) ;
+	
+	padding: 1%;
+	margin-top:100px;
+	margin-left:200px;
+	box-shadow: 3px 3px gray inset, 2px 2px gray;
+}
+
+h1{
+	font-size:35pt;
+}
+
+p{
+	font-size: 20pt; 
+}

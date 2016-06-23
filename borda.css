@@ -1,0 +1,11 @@
+p {
+	font-size: 30pt;
+	width: 1000px;
+	border: 10px solid black;
+	border-top-right-radius: 32px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 32px;
+	border-bottom-right-radius: 12px;
+	background-color: LightGray;
+	padding: 2%;
+}
