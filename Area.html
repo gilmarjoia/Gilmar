@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste de formulario</title>
+	<meta charset="utf-8">
+	<style type="text/css">[colspan="2"]{
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<form name="myform">
+	<table border="1">
+		<tr>
+			<td>Informe o raio:</td>
+			<td><input type="text" name="raio"></input></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button type='button' id="calcule">Faça os cálculos</button></td>
+		</tr>
+		<tr>
+			<td>Circunferência</td>
+			<td><input type="text" name="circunferencia" readonly=""></input></td>
+		</tr>
+		<tr>
+			<td>Área</td>
+			<td><input type="text" name="area" readonly=""></input></td>
+		</tr>
+	</table>
+	</form>
+	<script type="text/javascript" src="Calcular.js"></script>
+</body>
+</html>

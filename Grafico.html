@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gráfico de Barras</title>
+	<meta charset="utf-8">
+</head>
+<style>
+	tr.grafico{
+		vertical-align: bottom;	
+	}
+	}
+</style>
+<body>
+	<form name="myform">
+	<h1>Um gráfico de barras usando imagens</h1>
+	<table>
+		<tr>
+			<td>Informe a altura das barras:</td>
+			<td ><input type="text" name="primeiro" ></input></td>
+			<td ><input type="text" name="segundo" ></input></td>
+			<td ><input type="text" name="terceiro" ></input></td>
+			<td ><input type="text" name="quarto" ></input></td>
+			<td ><input type="text" name="quinto" ></input></td>
+		</tr>
+		<tr>
+			<td>Informe a largura das barras(em pixels):</td>
+			<td><input type="text" name="largura" ></input></td>
+		</tr>
+	</table><br><br>
+	<button type='button' id="desenhar">Desenhe o Gráfico</button>
+	<table>
+		<tr class="grafico">
+			<td><img name="pri" src="lilRed.gif" width="0" height="0"></td>
+			<td><img name="seg" src="lilRed.gif" width="0" height="0"></td>
+			<td><img name="ter" src="lilRed.gif" width="0" height="0"></td>
+			<td><img name="qua" src="lilRed.gif" width="0" height="0"></td>
+			<td><img name="qui" src="lilRed.gif" width="0" height="0"></td>
+		</tr>
+	</table>
+	</form>
+	<script type="text/javascript" src="Desenhar.js"></script>
+</body>
+</html>
