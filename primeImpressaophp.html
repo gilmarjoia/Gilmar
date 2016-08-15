@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Minha Primeira Pagina</title>
+		<style>
+			tr, td{
+				padding: 8px;
+			}
+			#sexo{
+				background-color:gainsboro; 
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Este e um grande cabecalho</h1>
+		<h3>E este aqui e um pequeno cabecalho</h3>
+
+		<p>Aqui eu coloquei um paragrafo com algum texto aleatorio, e a seguir vou inserir um formulario dentro de uma tabela. Alem disso, aqui vai um link: <a href="http://icomp.ufam.edu.br/david">http://icomp.ufam.edu.br/david.</a></p>
+
+		<form id="contact-form" method="GET" action="C:\xampp\htdocs\processa.php">
+			<table>
+				<thead>
+					<tr>
+						<td>Seu Nome:</td><br>
+						<td>
+							<div>
+								<input type="text" name="nome" id="nome"/>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Seu sexo: </td>
+						<td>
+							<div>
+								<select name="sexo" id="sexo">
+									<option value="1" selected>Masculino</option>
+									<option value="2">Feminino</option>
+								</select>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Seus comentarios: </td>
+						<td>
+							<div>
+								<textarea name="mensagem" rows="3" cols="50" ></textarea>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<div>
+								<input type="submit" name="submit" id="submit" value="Enviar">
+							</div>
+						</td>
+					</tr>
+				</thead>
+			</table>	
+		</form>
+		
+
+	</body>
+</html>
